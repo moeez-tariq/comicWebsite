@@ -1,0 +1,349 @@
+/* importing fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700|Raleway:300,400');
+
+@font-face {
+    font-family: 'domino';
+    src: url('/fonts/domino.otf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'domino';
+  background-color: #e1e1e1;
+}
+
+img {
+    border-radius: 1.5vw;
+    position: absolute;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.page {
+    padding: 2%;
+    height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #e1e1e1;
+}
+
+/* styling elements inside page-1 title page */
+
+#bottle-pic {
+    /* width: 40vw; */
+    height: 90vh;
+    position: absolute;
+    top: 7vh;
+    left: 5vw;
+}
+
+#scroll-button {
+    width: 6vw;
+    display: inline;
+    right: 10vw;
+    bottom: 10vh;
+
+    animation: bounce 0.25s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 10px, 0);
+    }
+}
+
+#listening-pic {
+    width: 40vw;
+    height: 80vh;
+    position: absolute;
+    right: 2vw;
+    top: 15vh;
+}
+
+#quote1 {
+    position: absolute;
+    font-size: 50px;
+    right: 20vw;
+    top: 50vh;
+    /* font-size: 20px; */
+}
+
+#quote2 {
+    position: absolute;
+    right: 5vw;
+    bottom: 20vh;
+    font-size: 30px;
+}
+
+#crushedbottle-pic {
+    height : 20vw;
+    top : 40vh;
+    left : 30vw;
+}
+
+#crushedbottle-pic2 {
+    height : 8vw;
+    position: absolute;
+    top : 65vh;
+    left : 50vw;
+}
+
+#crushedbottle-pic3 {
+    height : 15vw;
+    position: absolute;
+    top : 15vh;
+    left : 15vw;
+}
+
+#splitbottle {
+    height : 35vw;
+    position: absolute;
+    top : 25vh;
+    left : 32vw;
+}
+
+.show-button {
+    height : 20vw;
+    position: absolute;
+    /* top : 25vh;
+    left : 32vw; */
+}
+
+#grave {
+    height : 45vw;
+    position: absolute;
+    top : 10vh;
+    left : 15vw;
+}
+
+#grassground {
+    width : 100vw;
+    margin: 0px;
+    /* top : 40vh; */
+    left : 0vw;
+}
+
+/* styling elements inside page-1 title page */
+
+#idea-pic {
+    width: 40vw;
+    height: 80vh;
+    position: absolute;
+    top: 10vh;
+    left: 2vw;
+}
+
+
+/*  */
+
+.textbox {
+    display: none;
+    position: absolute;
+    width: 20vw;
+    /* height: ; */
+    font-size: 40px;
+    border: 10px solid black;
+    padding: 30px;
+    background-color: white;
+    top: 10vh;
+    left: 15vw;
+}
+
+#quote7 {
+    left: 65vw;
+    padding: 20px;
+    top: 23vh;
+}
+
+#quote9 {
+    /* display: inline; */
+    left: 65vw;
+    padding: 20px;
+    top: 23vh;
+}
+
+#placeholder-2 {
+    border: 0.15vw solid white;
+    position: absolute;
+    width: 10vw;
+    left: 0vw;
+    top: 0vh;
+    margin: 0%;
+    opacity: 0;
+}
+
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20%;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    background-image: url("./photos/up-arrowhead.png");
+  }
+  
+#back-to-top:hover {
+    opacity: 1;
+}
+
+
+/* styling elements inside page-1 title page */
+
+.city {
+    height: 80vh;
+    position: absolute;
+    /* margin: auto; */
+    top: 10vh;
+    left: 15vw;
+}
+
+#city3 {
+    height: 80vh;
+    position: absolute;
+    /* margin: auto; */
+    top: 3vh;
+    left: 15vw;
+}
+
+.beach {
+    height: 80vh;
+    position: absolute;
+    /* margin: auto; */
+    top: 10vh;
+    left: 15vw;
+}
+
+#seagulls {
+    /* height: 80vh; */
+    position: absolute;
+    /* margin: auto; */
+    top: -8vh;
+    /* left: 15vw; */
+}
+
+
+/* #quote4 {
+    position: absolute;
+    font-size: 20px;
+    right: 10vw;
+    top: 50vh;
+} */
+
+/* styling elements inside page-1 title page */
+
+#reach-pic {
+    width: 50vw;
+    height: 90vh;
+    position: absolute;
+    top: 15vh;
+    left: 22vw;
+}
+
+
+/* #quote5 {
+    position: absolute;
+    font-size: 25px;
+    left: 25vw;
+    top: 3vh;
+} */
+
+#quote5-2 {
+    position: absolute;
+    display: inline;
+    font-size: 25px;
+    left: 25vw;
+    top: 3vh;
+}
+
+#quote8 {
+    position: absolute;
+    width: 55vw;
+    /* height: ; */
+    font-size: 40px;
+    border: 10px solid black;
+    padding: 50px;
+    background-color: white;
+    top: 25vh;
+    left: 15vw;
+}
+
+.info {
+    width: 20vw;
+    font-size: 25px;
+    text-align: center;
+    top: 65vh;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#info1 {
+    width: 32vw;
+    font-size: 40px;
+    text-align: center;
+    top: 18vh;
+    left: 50vw;
+    font-weight: bold;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#info2 {
+    left: 13vw;
+}
+
+#info3 {
+    left: 38vw;
+}
+
+#info4 {
+    left: 63vw;
+}
+
+/* styling elements inside page-1 title page */
+
+#happy-pic {
+    width: 40vw;
+    height: 70vh;
+    position: absolute;
+    top: 25vh;
+    left: 2vw;
+}
+
+#excited-pic {
+    width: 50vw;
+    height: 90vh;
+    position: absolute;
+    top: 15vh;
+    right: 5vw;
+}
+
+
+/* #quote6 {
+    position: absolute;
+    font-size: 22px;
+    left: 22vw;
+    top: 10vh;
+} */
+
+
+
